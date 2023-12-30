@@ -1,0 +1,96 @@
+/*** ======================= Main ======================= ***/
+
+.main {
+  position: relative;
+  z-index: -1;
+}
+
+/*** ===================== Sections ==================== ***/
+/*** =================== Home-Banner =================== ***/
+
+.home-banner_section {
+  background-color: $dark-bg;
+  position: relative;
+  z-index: -2;
+  width: 100%;
+}
+
+.home-banner__bg {
+  position: absolute;
+  background-color: $primary-color;
+  max-height: 568px;
+  width: 40%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home-banner__text {
+  position: absolute;
+  left: -20px;
+  top: 475px;
+  font-size: 175px;
+  margin: 0;
+  z-index: 1;
+  font-family: $righteous;
+  -webkit-text-stroke: 2px rgba(128, 128, 128, 0.5);
+  -webkit-text-fill-color: transparent;
+}
+
+.home-banner__wrapper--left {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.home-banner__media-container {
+  margin-bottom: 40px;
+}
+
+.home-banner__icon {
+  margin-right: 25px;
+}
+
+.home-banner__title {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 175%;
+}
+
+.home-banner__desc {
+  max-width: 550px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.home-banner__btn--container {
+  max-width: 170px;
+  margin-top: 60px;
+}
+
+.home-banner__btn {
+  background-color: $secondary-color;
+  color: $dark-bg;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-banner__wrapper--right {
+  padding-top: 130px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-banner__img {
+  object-fit: cover;
+  height: 100%;
+  max-width: 300px;
+}

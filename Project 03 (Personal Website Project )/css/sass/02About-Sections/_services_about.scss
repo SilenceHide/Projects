@@ -1,0 +1,180 @@
+/*** ================== About-Services ================== ***/
+
+.about-services_section {
+  background-color: $primary-bg-color;
+  padding: 100px 0 310px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.about-services_section::after {
+  content: "";
+  position: absolute;
+  background: url(../img/01Home/02Services/service-bg.png), lightgray 50%;
+  mix-blend-mode: luminosity;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $primary-bg-color;
+  z-index: -1;
+}
+
+.about-services {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-service {
+  background-color: $light-bg-color;
+  padding: 40px 35px 40px 30px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.about-service:hover {
+  background-color: $primary-color;
+}
+
+.about-service:hover .about-service__title {
+  color: $text-color;
+}
+
+.about-service__img {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-service__title {
+  color: $primary-color;
+  margin: 25px 0;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  font-size: 26px;
+}
+
+.about-service__desc {
+  line-height: 24px;
+}
+
+.about-service__btn {
+  background-color: $primary-color;
+  padding: 15px 35px;
+  margin-top: 25px;
+  display: inline-block;
+  color: $text-color;
+}
+
+.about-skills {
+  position: relative;
+  z-index: 1;
+  margin-top: 70px;
+}
+
+.about-skill {
+  margin-top: 40px;
+}
+
+.about-skill__title {
+  color: $secondary-color;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.about-skill__wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.about-skill__number {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-skill__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-skill__info--title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.about-skill__info--subtitle {
+  color: $secondary-color;
+  line-height: 24px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.about-skill__range--wrapper {
+  margin-bottom: 25px;
+}
+
+.about-skill__range--info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-skill__range--title {
+  color: $secondary-color;
+}
+
+.about-skill__range--title,
+.about-skill__range--percentage {
+  margin: 0;
+}
+
+.about-skill__range {
+  height: 16px;
+  background-color: $text-color;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-skill__range::after {
+  content: "";
+  position: absolute;
+  background-color: $secondary-color;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.percentage1::after {
+  width: 89%;
+}
+
+.percentage2::after {
+  width: 75%;
+}
+
+.percentage3::after {
+  width: 85%;
+}
+
+.percentage4::after {
+  width: 90%;
+}

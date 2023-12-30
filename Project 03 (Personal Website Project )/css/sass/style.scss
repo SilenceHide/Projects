@@ -1,0 +1,26 @@
+@import "global/typography";
+@import "global/colors";
+
+@import "layout/layout";
+@import "layout/header";
+
+@import "01Home-Sections/banner_home";
+@import "02About-Sections/banner_about";
+
+@import "01Home-Sections/services_home";
+
+@import "layout/about";
+
+@import "02About-Sections/services_about";
+
+@import "01Home-Sections/portfolio_home";
+
+@import "01Home-Sections/testimony_home";
+@import "02About-Sections/testimony_about";
+
+@import "01Home-Sections/contact_home";
+
+@import "layout/client";
+@import "layout/footer";
+
+@import "global/responsive";

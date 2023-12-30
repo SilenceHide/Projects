@@ -1,0 +1,124 @@
+/*** ================== Home-Contact ================== ***/
+
+.home-contact_section {
+  background-color: $primary-bg-color;
+  padding: 40px 10px;
+}
+
+.home-contact__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-contact__title {
+  font-size: 24px;
+}
+
+.home-contact__title--span {
+  color: $secondary-color;
+}
+
+.home-contact__title--desc {
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.home-contact__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 30px 0;
+  gap: 20px;
+}
+
+.home-info__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.home-info__img--box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home-info__img {
+  width: 50%;
+}
+
+.home-info__title {
+  color: $primary-color;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.home-info__desc {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.home-contact__form--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.home-contact__form--box {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-contact__form--label {
+  margin: 14px 0;
+}
+
+.home-contact__form--input {
+  padding: 10px 10px;
+}
+
+.home-contact__form--input,
+.home-contact__form--message {
+  outline: none;
+}
+
+.home-contact__form--message {
+  resize: none;
+}
+
+.home-contact__form--submit {
+  background-color: $secondary-color;
+  color: $dark-bg;
+  font-size: 18px;
+  align-self: self-start;
+  margin-top: 30px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-contact__form--desc {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.home-contact_form--map {
+  flex-basis: 100%;
+  max-width: 340px;
+  width: 340px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 185px;
+  max-height: 185px;
+}

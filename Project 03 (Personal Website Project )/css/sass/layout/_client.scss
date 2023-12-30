@@ -1,0 +1,12 @@
+/*** ================== Client ================== ***/
+
+.client_section {
+  background-color: $light-bg-color;
+  padding: 30px 0;
+}
+
+.client__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

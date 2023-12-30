@@ -1,0 +1,14 @@
+/*** ============= Font Face (Fonts) ============== ***/
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format(".ttf");
+}
+
+@font-face {
+  font-family: "Righteous";
+  src: url(../fonts/Righteous/Righteous-Regular.ttf) format(".ttf");
+}
+
+$roboto-normal: "Roboto", sans-serif, Arial;
+$righteous: "Righteous", sans-serif, Arial;

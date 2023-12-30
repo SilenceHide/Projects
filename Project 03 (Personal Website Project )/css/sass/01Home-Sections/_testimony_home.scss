@@ -1,0 +1,79 @@
+/*** ================== Home-Testimony ================= ***/
+
+.home-testimony_section {
+  background-color: $primary-color;
+  position: relative;
+  z-index: -2;
+}
+
+.home-testimony__wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+.home-testimony__wrapper--left {
+  padding: 60px 24px 0 24px;
+}
+
+.home-testimony__profile--img {
+  width: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home-testimony__desc {
+  color: $dark-bg;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.home-testimony__profile--name {
+  color: $dark-bg;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0 0 0;
+}
+
+.home-testimony__profile--title {
+  color: $dark-bg;
+  font-size: 14px;
+}
+
+.home-testimony__wrapper--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-testimony__right--img {
+  height: 100%;
+  max-width: 305px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0 0 25px;
+}
+
+.home-testimony__right--bg {
+  background-color: $primary-bg-color;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.home-testimony__right--bg-img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}

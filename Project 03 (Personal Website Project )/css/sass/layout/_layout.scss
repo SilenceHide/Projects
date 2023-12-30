@@ -1,0 +1,25 @@
+/*** ================= CSS Styles ================ ***/
+
+* {
+  font-family: $roboto-normal;
+  color: $text-color;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+}

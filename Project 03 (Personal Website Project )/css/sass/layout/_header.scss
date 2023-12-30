@@ -1,0 +1,65 @@
+/*** =================== Header =================== ***/
+
+.header {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.header_wrapper {
+  align-items: center;
+}
+
+.logo {
+  font-family: $righteous;
+  font-size: 45px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_link {
+  color: $text-color;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.menu_link:hover {
+  color: $secondary-color;
+}
+
+.menu_item--active {
+  color: $secondary-color;
+}
+
+.phone_number--img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.header_phone-number {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.navbar-expand-lg .offcanvas .offcanvas-body {
+  margin: 0 auto;
+}
+
+.nav {
+  align-items: center;
+}
+
+.offcanvas-title {
+  font-family: $righteous;
+  font-size: 26px;
+}

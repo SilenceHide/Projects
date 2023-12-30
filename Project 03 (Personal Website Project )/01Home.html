@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <!-- <link rel="stylesheet" href="css/Normalize CSS.css" /> -->
+    <link rel="stylesheet" href="vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!--*******--------**** Header ****--------*******-->
+    <header class="header">
+      <div class="container">
+        <div class="header_wrapper">
+          <nav class="navbar navbar-dark navbar-expand-lg nav">
+            <a class="navbar-brand logo" href="#">Rojo</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  Rojo
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav flex-grow-1 pe-3 pe-lg-0 menu">
+                  <li class="nav-item menu_item">
+                    <a
+                      class="nav-link menu_link menu_item--active"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item menu_item">
+                    <a
+                      class="nav-link menu_link"
+                      href="02About.html"
+                      target="_blank"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item menu_item">
+                    <a class="nav-link menu_link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                    <a class="nav-link menu_link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                    <a class="nav-link menu_link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <div class="header_phone-number">
+                  <img
+                    class="phone_number--img"
+                    src="img/01Home/00Header/phone.png"
+                    alt="phone"
+                  />
+                  <p class="phone_number">+621 2345 6789</p>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--*******---------**** Main ****---------*******-->
+    <main class="main">
+      <!--*******---------**** Sections ****---------*******-->
+      <!--*******---------**** Banner ****---------*******-->
+      <section class="home-banner_section">
+        <div class="home-banner__bg"></div>
+        <div class="container relative">
+          <div class="row home-banner__wrapper">
+            <p class="home-banner__text">Rojo</p>
+            <div
+              class="col-12 col-md-6 order-2 order-md-1 home-banner__wrapper--left z-3"
+            >
+              <div class="home-banner__media-container">
+                <img
+                  class="home-banner__icon"
+                  src="img/01Home/01Banner/Yfacebook.png"
+                  alt="facebook"
+                />
+                <img
+                  class="home-banner__icon"
+                  src="img/01Home/01Banner/Ytwitter.png"
+                  alt="twitter"
+                />
+                <img
+                  class="home-banner__icon"
+                  src="img/01Home/01Banner/Yinstagram.png"
+                  alt="instagram"
+                />
+                <img
+                  class="home-banner__icon"
+                  src="img/01Home/01Banner/Yyoutube.png"
+                  alt="youtube"
+                />
+              </div>
+              <h1 class="home-banner__title">
+                Web Designer Type Designer based in Sidoarjo
+              </h1>
+              <p class="home-banner__desc">
+                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
+                officia deserunt mollit anim id est laborum
+              </p>
+              <div class="home-banner__btn--container">
+                <a class="home-banner__btn" href="#">
+                  <img
+                    class="home-banner__btn--icon"
+                    src="img/01Home/01Banner/Bprofile.png"
+                    alt="profile"
+                  />More About Me</a
+                >
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 order-1 order-md-2 home-banner__wrapper--right"
+            >
+              <img
+                class="home-banner__img"
+                src="img/01Home/01Banner/a-man-in-a-jacket-holds-a-backpack-KEQKWFD 1.png"
+                alt="a-man-in-a-jacket-holds-a-backpack"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*******---------**** Services ****---------*******-->
+      <section class="home-services_section">
+        <div class="container">
+          <div class="row gy-3 gx-xl-5 home-services">
+            <div class="col-6 col-lg-3">
+              <div class="home-service">
+                <img
+                  class="home-service__img"
+                  src="img/01Home/02Services/User Experience.png"
+                  alt="User Experience"
+                />
+                <h2 class="home-service__title">Mobile Design</h2>
+                <p class="home-service__desc">
+                  Reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="home-service">
+                <img
+                  class="home-service__img"
+                  src="img/01Home/02Services/Frame.png"
+                  alt="User Experience"
+                />
+                <h2 class="home-service__title">Web Design</h2>
+                <p class="home-service__desc">
+                  Reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="home-service">
+                <img
+                  class="home-service__img"
+                  src="img/01Home/02Services/Frame2.png"
+                  alt="User Experience"
+                />
+                <h2 class="home-service__title">Font Design</h2>
+                <p class="home-service__desc">
+                  Reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="home-service">
+                <img
+                  class="home-service__img"
+                  src="img/01Home/02Services/Editing Prosess.png"
+                  alt="User Experience"
+                />
+                <h2 class="home-service__title">Icon Design</h2>
+                <p class="home-service__desc">
+                  Reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--********---------**** About ****---------********-->
+      <section class="about_section">
+        <div class="container">
+          <div class="row about__wrapper">
+            <div class="col-12 col-md-6 about__wrapper--left">
+              <h2 class="about__left--title">
+                About <span class="about__left--title-span">Me</span>
+              </h2>
+              <h3 class="about__left--subtitle">
+                Everything you can imagine is real
+              </h3>
+              <div class="about__left--wrapper">
+                <p class="about__left--desc">
+                  Excepteur sint occaecat cupidatat non proident sunt in culpa
+                  qui officia deserunt mollit anim id est laborum Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur
+                </p>
+                <p class="about__left--desc">
+                  Cepteur sint occaecat cupidatat non proident sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="about__left--media">
+                <a href="#" class="about__media--link">
+                  <img
+                    class="about__media--img"
+                    src="img/01Home/03About/Yright-arrow.png"
+                    alt="right-arrow"
+                  />
+                  Watch Video</a
+                >
+              </div>
+            </div>
+            <div class="col-12 col-md-6 about__wrapper--right">
+              <h3 class="about__right--title">Culture</h3>
+              <p class="about__right--desc">
+                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
+                officia deserunt mollit anim id est laborum Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur
+              </p>
+              <div class="about__right--icons-wrapper">
+                <div class="about__right--icon-wrapper">
+                  <a class="about__right--icon-link" href="#">
+                    <img
+                      class="about__right--icon"
+                      src="img/01Home/03About/Wfacebook.png"
+                      alt="facebook"
+                    />
+                  </a>
+                </div>
+                <div class="about__right--icon-wrapper">
+                  <a class="about__right--icon-link" href="#">
+                    <img
+                      class="about__right--icon"
+                      src="img/01Home/03About/Wtwitter.png"
+                      alt="twitter"
+                    />
+                  </a>
+                </div>
+                <div class="about__right--icon-wrapper">
+                  <a class="about__right--icon-link" href="#">
+                    <img
+                      class="about__right--icon"
+                      src="img/01Home/03About/Winstagram.png"
+                      alt="instagram"
+                    />
+                  </a>
+                </div>
+                <div class="about__right--icon-wrapper">
+                  <a class="about__right--icon-link" href="#">
+                    <img
+                      class="about__right--icon"
+                      src="img/01Home/03About/Wyoutube.png"
+                      alt="youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*******---------**** Portfolio ****---------*******-->
+      <section class="home-portfolio_section">
+        <div class="container relative">
+          <div class="home-portfolio_section--img-wrapper">
+            <img
+              class="home-portfolio_section--img psi1"
+              src="img/01Home/04Portfolio/RectangleLeft1.png"
+              alt="RectangleLeft"
+            />
+            <img
+              class="home-portfolio_section--img psi2"
+              src="img/01Home/04Portfolio/RectangleLeft2.png"
+              alt="RectangleLeft"
+            />
+            <img
+              class="home-portfolio_section--img psi4"
+              src="img/01Home/04Portfolio/RectangleLeft4.png"
+              alt="RectangleLeft"
+            />
+            <img
+              class="home-portfolio_section--img psi3"
+              src="img/01Home/04Portfolio/RectangleLeft3.png"
+              alt="RectangleLeft"
+            />
+          </div>
+          <div
+            class="row justify-content-center align-items-center home-portfolio__wrapper"
+          >
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item pi1">
+              <h2 class="home-portfolio__title">
+                My <span class="home-portfolio__title--span">Portfolio</span>
+              </h2>
+              <p class="home-portfolio__desc">
+                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
+                officia deserunt mollit anim id est laborum Duis aute irure
+                dolor.
+              </p>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item">
+              <img
+                class="home-portfolio__img"
+                src="img/01Home/04Portfolio/Image1.png"
+                alt="image"
+              />
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item">
+              <img
+                class="home-portfolio__img"
+                src="img/01Home/04Portfolio/Image2.png"
+                alt="image"
+              />
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item">
+              <img
+                class="home-portfolio__img"
+                src="img/01Home/04Portfolio/Image3.png"
+                alt="image"
+              />
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item">
+              <img
+                class="home-portfolio__img"
+                src="img/01Home/04Portfolio/Image4.png"
+                alt="image"
+              />
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 home-portfolio__item">
+              <img
+                class="home-portfolio__img"
+                src="img/01Home/04Portfolio/Image5.png"
+                alt="image"
+              />
+            </div>
+            <div class="col-12 home-portfolio__item hpbtn">
+              <a href="#" class="home-portfolio__btn">All Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*******---------**** Testimony ****---------*******-->
+      <section class="home-testimony_section">
+        <div class="home-testimony__right--bg">
+          <img
+            class="home-testimony_right--bg-img"
+            src="img/01Home/05Testimony/testimony-bg.png"
+            alt="testimony-bg"
+          />
+        </div>
+        <div class="container relative">
+          <div class="row home-testimony__wrapper">
+            <div class="col-12 col-md-6 home-testimony__wrapper--left">
+              <img
+                class="home-testimony__profile--img"
+                src="img/01Home/05Testimony/profile-img.png"
+                alt="profile-img"
+              />
+              <p class="home-testimony__desc">
+                veniam quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <p class="home-testimony__profile--name">John Doe</p>
+              <h5 class="home-testimony__profile--title">Company ABC</h5>
+            </div>
+            <div class="col-12 col-md-6 home-testimony__wrapper--right">
+              <img
+                class="home-testimony__right--img"
+                src="img/01Home/05Testimony/a-man-in-a-jacket-holds-a-backpack-KEQKWFD 1.png"
+                alt="a-man-in-a-jacket-holds-a-backpack"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*******----------**** Contact ****----------*******-->
+      <section class="home-contact_section">
+        <div class="container">
+          <div class="home-contact__wrapper">
+            <div class="home-contact__desc">
+              <h2 class="home-contact__title">
+                Contact <span class="home-contact__title--span">Me</span>
+              </h2>
+              <p class="home-contact__title--desc">
+                We provide high standard clean website for your business
+                solutions
+              </p>
+            </div>
+            <div class="row home-contact__info">
+              <div class="col-12 col-lg-3 home-info__wrapper">
+                <div class="home-info__img--box">
+                  <img
+                    class="home-info__img"
+                    src="img/01Home/06Contact/call.png"
+                    alt="call"
+                  />
+                </div>
+                <div class="home-info__box">
+                  <p class="home-info__title">Call us on</p>
+                  <p class="home-info__desc">+62 123 6700 411</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 home-info__wrapper">
+                <div class="home-info__img--box">
+                  <img
+                    class="home-info__img"
+                    src="img/01Home/06Contact/mail.png"
+                    alt="mail"
+                  />
+                </div>
+                <div class="home-info__box">
+                  <p class="home-info__title">Email Us</p>
+                  <p class="home-info__desc">info@rojo.com</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-5 home-info__wrapper">
+                <div class="home-info__img--box">
+                  <img
+                    class="home-info__img"
+                    src="img/01Home/06Contact/location.png"
+                    alt="location"
+                  />
+                </div>
+                <div class="home-info__box">
+                  <p class="home-info__title">Visit Office</p>
+                  <p class="home-info__desc">
+                    99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row home-contact__form">
+              <div
+                class="col-12 col-lg-5 order-2 order-lg-1 home-contact__form--left"
+              >
+                <div class="home-contact__form--box">
+                  <label class="home-contact__form--label" for="name"
+                    >Your Name (required)</label
+                  >
+                  <input
+                    class="home-contact__form--input"
+                    type="text"
+                    id="name"
+                    name="name"
+                  />
+                </div>
+                <div class="home-contact__form--box">
+                  <label class="home-contact__form--label" for="email"
+                    >Your Email (required)</label
+                  >
+                  <input
+                    class="home-contact__form--input"
+                    type="email"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="home-contact__form--box">
+                  <label class="home-contact__form--label" for="subject"
+                    >Subject</label
+                  >
+                  <input
+                    class="home-contact__form--input"
+                    type="text"
+                    id="subject"
+                    name="subject"
+                  />
+                </div>
+                <div class="home-contact__form--box">
+                  <label class="home-contact__form--label" for="message"
+                    >Your Message</label
+                  >
+                  <textarea
+                    class="home-contact__form--message"
+                    name="message"
+                    id="message"
+                    cols="25"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <div class="home-contact__form--box">
+                  <button class="home-contact__form--submit" type="submit">
+                    Get a free quote
+                  </button>
+                </div>
+                <div class="home-contact__form--box">
+                  <p class="home-contact__form--desc">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-7 order-1 order-lg-2 home-contact__form--right"
+              >
+                <img
+                  class="home-contact_form--map"
+                  src="img/01Home/06Contact/Map.png"
+                  alt="Map"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--*******----------**** Client ****-----------*******-->
+      <section class="client_section">
+        <div class="container">
+          <div class="row client__wrapper">
+            <img
+              class="col-6 col-md-3 client__img"
+              src="img/01Home/07Client/client1.png"
+              alt="client"
+            />
+            <img
+              class="col-6 col-md-3 client__img"
+              src="img/01Home/07Client/client2.png"
+              alt="client"
+            />
+            <img
+              class="col-6 col-md-3 client__img"
+              src="img/01Home/07Client/client3.png"
+              alt="client"
+            />
+            <img
+              class="col-6 col-md-3 client__img"
+              src="img/01Home/07Client/client4.png"
+              alt="client"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--*******----------**** Footer ****-----------*******-->
+    <footer class="footer">
+      <div class="container relative">
+        <img
+          class="footer__bg"
+          src="img/01Home/08Footer/footer-bg.png"
+          alt="footer-bg"
+        />
+        <div class="footer__wrapper">
+          <p class="footer__desc">
+            Excepteur sint occaecat cupidatat non proident sunt in culpa qui
+            officia deserunt mollit anim id est laborum Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur
+          </p>
+          <div class="footer__media--wrapper">
+            <div class="footer__media">
+              <img
+                class="footer__media--img"
+                src="img/01Home/08Footer/Wfacebook.png"
+                alt="facebook"
+              />
+            </div>
+            <div class="footer__media">
+              <img
+                class="footer__media--img"
+                src="img/01Home/08Footer/Wtwitter.png"
+                alt="twitter"
+              />
+            </div>
+            <div class="footer__media">
+              <img
+                class="footer__media--img"
+                src="img/01Home/08Footer/Winstagram.png"
+                alt="instagram"
+              />
+            </div>
+            <div class="footer__media">
+              <img
+                class="footer__media--img"
+                src="img/01Home/08Footer/Wyoutube.png"
+                alt="youtube"
+              />
+            </div>
+          </div>
+          <p class="footer__copyright">
+            © 2020 Rojo Template Kit – All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="vendors/bootstrap.min.js"></script>
+  </body>
+</html>

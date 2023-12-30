@@ -1,0 +1,74 @@
+/*** ================== Home-Services ================== ***/
+
+.home-services_section {
+  background-color: $primary-bg-color;
+  padding: 100px 0;
+  position: relative;
+}
+
+.home-services_section::after {
+  content: "";
+  position: absolute;
+  background: url(../img/01Home/02Services/service-bg.png),
+    lightgray 50% / cover no-repeat;
+  mix-blend-mode: luminosity;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $primary-bg-color;
+}
+
+.home-services {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-service {
+  background-color: $light-bg-color;
+  padding: 20px 20px 20px 20px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.home-service:hover {
+  background-color: $primary-color;
+}
+
+.home-service:hover .home-service__title {
+  color: $text-color;
+}
+
+.home-service__img {
+  width: 55px;
+  height: 55px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-service__title {
+  color: $primary-color;
+  margin: 25px 0;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.home-service__desc {
+  line-height: 24px;
+  font-size: 14px;
+}
