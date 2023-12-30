@@ -1,0 +1,399 @@
+@media (max-width: 420px) {
+  .header-content__title {
+    font-size: 4rem;
+  }
+
+  .destinations__title {
+    font-size: 2.5rem;
+  }
+
+  .place__banner {
+    height: 18rem;
+  }
+
+  .newsletter {
+    padding: 4rem 1rem;
+  }
+
+  .newsletter__content {
+    width: auto;
+    max-width: 30rem;
+  }
+
+  .newsletter__title {
+    max-width: 18rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer__title,
+  .footer__caption {
+    margin: 0 auto;
+  }
+
+  .footer__title {
+    margin-bottom: 1rem;
+  }
+
+  .footer__caption {
+    width: 29rem;
+  }
+
+  .footer-list {
+    margin: 0 auto 4rem auto;
+    width: 20rem;
+  }
+
+  .newsletter::before {
+    top: 22rem;
+    left: -20.5rem;
+  }
+}
+
+/* ========================================== */
+/* ========================================== */
+@media (min-width: 576px) {
+  .container {
+    width: 54rem;
+  }
+
+  .place__banner {
+    height: 28rem;
+  }
+
+  .footer__wrapper-right {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+
+  .footer-list {
+    width: 16rem;
+  }
+
+  .newsletter::before {
+    top: 25rem;
+    left: -9.5rem;
+  }
+}
+
+/* ========================================== */
+/* ========================================== */
+@media (min-width: 768px) {
+  .container {
+    width: 72rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .app-logo {
+    margin-right: 6rem;
+  }
+
+  .place {
+    width: 30rem;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: 0;
+  }
+
+  .place__banner {
+    height: 22rem;
+  }
+
+  .destinations__link {
+    margin-top: 6rem;
+  }
+
+  .newsletter {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .newsletter__banner {
+    margin-bottom: 0;
+    padding-left: 2rem;
+  }
+
+  .footer__wrapper-left {
+    max-width: 64rem;
+  }
+
+  .footer__wrapper-right {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .newsletter::before {
+    top: -3rem;
+    left: -13.5rem;
+  }
+
+  .destinations::after {
+    width: 80rem;
+    height: 80rem;
+    top: -237px;
+    right: -264px;
+  }
+
+  .destinations::before {
+    width: 80rem;
+    height: 80rem;
+    left: -199px;
+    bottom: 252px;
+  }
+}
+
+/* ========================================== */
+/* ========================================== */
+@media (min-width: 992px) {
+  .container {
+    width: 96rem;
+  }
+
+  .header {
+    min-height: 80rem;
+  }
+
+  .nav__links {
+    display: block;
+  }
+
+  .header-content__caption {
+    max-width: 50rem;
+  }
+
+  .destinations__title {
+    font-size: 4rem;
+    max-width: 45rem;
+    margin: 4rem auto 6rem auto;
+  }
+
+  .newsletter {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .newsletter__banner {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .footer__main-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer__wrapper-left {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    max-width: 45rem;
+  }
+
+  .footer__wrapper-right {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .footer-list {
+    width: 18rem;
+  }
+
+  .newsletter::before {
+    top: -5rem;
+    left: -12.5rem;
+    width: 60rem;
+    height: 60rem;
+  }
+
+  .destinations::after {
+    width: 80rem;
+    height: 80rem;
+    top: -237px;
+    right: -264px;
+  }
+
+  .destinations::before {
+    width: 80rem;
+    height: 80rem;
+    left: -166px;
+    bottom: 332px;
+  }
+}
+
+/* ========================================== */
+/* ========================================== */
+@media (min-width: 1200px) {
+  .container {
+    width: 114rem;
+  }
+
+  .header-content {
+    margin-top: 10rem;
+  }
+
+  .header-content__title {
+    font-size: 7rem;
+    max-width: 55rem;
+  }
+
+  .services {
+    margin-top: -10rem;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .services__item {
+    width: 31rem;
+  }
+
+  .destinations {
+    padding: 9rem 0;
+  }
+
+  .newsletter {
+    text-align: left;
+    margin: 6rem 0;
+  }
+
+  .newsletter__content {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    padding: 0 5rem 0 3rem;
+  }
+
+  .newsletter__title {
+    margin-bottom: 1rem;
+  }
+
+  .newsletter__caption {
+    margin: 0 0 2.5rem 0;
+    max-width: none;
+  }
+
+  .newsletter__banner {
+    padding: 0 3rem 0 0;
+  }
+
+  .newsletter__email-icon {
+    margin-left: 1rem;
+  }
+
+  .footer__main-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer-list {
+    margin-bottom: 3rem;
+  }
+
+  .footer__wrapper-bottom {
+    margin-left: 3rem;
+  }
+
+  .newsletter::before {
+    top: -25rem;
+    left: -24.5rem;
+    width: 90rem;
+    height: 90rem;
+  }
+
+  .destinations::after {
+    width: 100rem;
+    height: 100rem;
+  }
+
+  .destinations::before {
+    width: 100rem;
+    height: 100rem;
+    left: -340px;
+    bottom: 477px;
+  }
+}
+
+/* ========================================== */
+/* ========================================== */
+@media (min-width: 1400px) {
+  .container {
+    width: 137rem;
+  }
+
+  .header-content {
+    margin-top: 12rem;
+  }
+
+  .newsletter__content {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding: 0 5rem 0 4rem;
+  }
+
+  .newsletter__caption {
+    max-width: 48rem;
+  }
+
+  .newsletter__banner {
+    padding: 0 4rem 0 0;
+  }
+
+  .footer__main-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .footer__wrapper-left {
+    max-width: 60rem;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .footer-list {
+    margin-bottom: 1rem;
+  }
+
+  .footer__wrapper-bottom {
+    margin-left: 0;
+  }
+
+  .newsletter::before {
+    top: -34rem;
+    left: -12.5rem;
+  }
+}
