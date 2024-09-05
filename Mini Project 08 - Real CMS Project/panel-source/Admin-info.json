@@ -1,0 +1,12 @@
+{
+    "_id":ObjectId("6263f7ba27149f1e53094a95"),
+    "firstName":"HajAli",
+    "lastName":"Dragon",
+    "username":"SilenceHide",
+    "password":"12912120",
+    "email":"silenceHide@gmail.com",
+    "profile": "content/img/profile/banana.png",
+    "banner": "content/img/profile/banana.png",
+    "created_AT":"1402/04/27",
+    "__v":0
+}
